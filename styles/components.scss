@@ -1,0 +1,39 @@
+@layer components {
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+
+    @media screen and (min-width: 1025px) {
+      max-width: calc(100% - 144px);
+    }
+  }
+
+  .center-y {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pointer-events-all {
+    pointer-events: all;
+  }
+
+  .a-0 {
+    @apply absolute bottom-0 left-0 right-0 top-0;
+  }
+}
