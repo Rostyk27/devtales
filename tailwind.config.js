@@ -4,12 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // 'color-primary': 'var(--color-primary)',
-        // 'color-secondary': 'var(--color-secondary)',
-        // 'color-text': 'var(--color-text)',
-        // 'color-bg': 'var(--color-bg)',
-        // 'color-error': 'var(--color-error)',
-        // 'color-success': 'var(--color-success)',
+        primary: {
+          DEFAULT: 'var(--primary)',
+          50: 'var(--primary-50)',
+        },
+        secondary: {
+          DEFAULT: 'var(--secondary)',
+          50: 'var(--secondary-50)',
+        },
+        black: 'var(--black)',
+        grey: 'var(--grey)',
+        'bg-light': 'var(--bg-light)',
+        'bg-dark': 'var(--bg-dark)',
       },
       fontSize: {
         'size-base': 'var(--size-base)',
