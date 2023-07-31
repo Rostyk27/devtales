@@ -1,11 +1,12 @@
 @layer base {
-  // html {
-  //   @apply font-family-montserrat text-size-base leading-normal;
+  html {
+    @apply text-size-base leading-normal;
+    // font-family-montserrat
 
-  //   &::-webkit-scrollbar {
-  //     width: 6px;
-  //   }
-  // }
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+  }
 
   // ::-webkit-scrollbar-thumb {
   //   @apply bg-color-primary;
@@ -24,9 +25,10 @@
   //   scrollbar-color: var(--color-primary) var(--color-bg);
   // }
 
-  // body {
-  //   @apply bg-white text-[15px] text-color-text lg:text-size-base;
-  // }
+  body {
+    @apply bg-white text-[15px] lg:text-size-base;
+    // text-color-text
+  }
 
   h1 {
     @apply mb-8 text-2xl lg:mb-10 lg:text-4xl;

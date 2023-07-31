@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: {
@@ -13,6 +10,9 @@ module.exports = {
         // 'color-bg': 'var(--color-bg)',
         // 'color-error': 'var(--color-error)',
         // 'color-success': 'var(--color-success)',
+      },
+      fontSize: {
+        'size-base': 'var(--size-base)',
       },
     },
     screens: {
@@ -27,4 +27,4 @@ module.exports = {
     container: false,
   },
   plugins: [],
-};
+}
